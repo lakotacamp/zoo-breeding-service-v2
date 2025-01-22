@@ -1,0 +1,41 @@
+zoo-breeding-service v.1 is now too big of a mess for me to try to salvage.
+Even deleting the project and re cloning the repo, it retains changes to the
+development environment that I do not know how to fix, the results of trying
+to get the postgres database and alembic working properly.
+
+For now, I am starting fresh with v.2 of the project, with the intent to get all
+features working properly before attempting to implement the database and alembic.
+This seems to be working so far.
+
+
+CURRENTLY PLANNED FEATURES:
+
+1. Breeding Management
+Pair Matching and Compatibility: Match breeding pairs based on genetic diversity, age, and health status to promote healthy offspring.
+Breeding History Tracking: Maintain a history of breeding events for each animal, including dates and outcomes.
+Success Rate Analysis: Track breeding success rates to identify patterns and improve outcomes.
+2. Litter and Offspring Management
+Litter Tracking: Record detailed information about litters, including size, birth date, and descriptions.
+Offspring Monitoring: Track the health, growth, and milestones of individual offspring.
+Mortality and Survival Rates: Log offspring survival rates to help improve breeding practices.
+3. Health and Veterinary Management
+Health Check Scheduling: Automatically schedule health checks for breeding pairs and newborns.
+Vaccination and Medical Records: Maintain detailed medical records for all animals, including vaccinations and treatments.
+Incident Reporting: Log incidents such as illness, injury, or premature death.
+4. Environmental and Behavioral Data
+Breeding Environment Monitoring: Record environmental conditions during breeding events, such as temperature, humidity, and enclosure type.
+Behavioral Observations: Log animal behavior during courtship, mating, and after birth to identify potential issues.
+5. Reporting and Analytics
+Breeding Reports: Generate detailed reports on breeding events, outcomes, and trends over time.
+Genetic Diversity Reports: Analyze the genetic diversity of the zoo’s population to prevent inbreeding.
+Performance Dashboards: Provide visual dashboards with key metrics, such as breeding success rates, offspring survival rates, and health statistics.
+6. Notifications and Alerts
+Breeding Alerts: Notify staff of upcoming breeding events or overdue breedings.
+Health Alerts: Notify veterinarians of animals requiring urgent health checks or treatments.
+Milestone Alerts: Send reminders for important milestones, such as weaning or vaccinations.
+7. Role-Based Access Control (RBAC)
+User Roles: Provide different access levels for administrators, veterinarians, caretakers, and researchers.
+Data Security: Ensure sensitive data, such as genetic profiles, is only accessible to authorized personnel.
+8. Data Export and Backup
+Export to CSV/Excel: Allow users to export breeding and health data for offline analysis.
+Automated Backups: Ensure regular data backups to prevent loss.
